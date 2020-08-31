@@ -1,6 +1,6 @@
-# gatsby-source-starter
+# source-national-park-api
 
-This is a starter plugin for building a Gatsby JS Source Plugin. It helps to update this as you go.
+This is a Gatsby plugin sourcing data from the National Park Service API.
 
 ## Set The Config
 
@@ -11,7 +11,9 @@ module.exports = {
     plugins: [
         {
             resolve: 'gatsby-source-starter',
-            options: {},
+            options: {
+                apitKey: ''
+            },
         },
     ],
 }
