@@ -1,6 +1,6 @@
 # source-national-park-api
 
-This is a Gatsby plugin sourcing data from the National Park Service API.
+Gatsby plugin sourcing data from the National Park Service API.
 
 ## Set The Config
 
@@ -10,7 +10,7 @@ In `gatsby-config.js`:
 module.exports = {
     plugins: [
         {
-            resolve: 'gatsby-source-starter',
+            resolve: 'gatsby-source-national-park-api',
             options: {
                 apitKey: ''
             },

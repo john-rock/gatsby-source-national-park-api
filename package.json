@@ -1,7 +1,7 @@
 {
   "name": "gatsby-source-national-park-api",
   "description": "Source data from the National Park Service API",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "John Rock (https://johnrock.me)",
   "dependencies": {
     "@babel/cli": "^7.4.4",
